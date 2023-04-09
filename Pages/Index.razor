@@ -2,13 +2,13 @@
 
 <PageTitle>Index</PageTitle>
 
-@CsrAndRun
+
 
 
 <div class="row">
-    <div class="col-2">XXX</div>
+    <div class="col-2"></div>
     <div class="col-8 bg-info text-center "><h2>MONTLY REMITTANCE CALCULATOR</h2></div>
-    <div class="col-2">XXX</div>
+    <div class="col-2"></div>
 </div>
 <hr />
 
@@ -16,7 +16,7 @@
 <div class="row">
     
         <div class="row">
-            <div class="col-11 ">
+            <div class="col-12 ">
             <EditForm Model="@InputModel"  OnValidSubmit="xx" >
                 <DataAnnotationsValidator></DataAnnotationsValidator>
                 <ValidationSummary></ValidationSummary>
@@ -24,59 +24,81 @@
                 <label for="ct" class="form-label col-8 text-primary">OTHER TITHE DISBURSEMENT (CONGRGATIONAL)</label>
                 <input id="ct" class="col-3" type="text" @bind-value="InputModel.CongregationTithe"  placeholder="0.0" title="Members Tithe " />
             </div>
+            <hr />
             <div class="row">
                 <label for="mt" class="col-8 text-primary">MINISTERS TITHE</label>
                 <input id="mt" class="col-3 " type="text" @bind-value="InputModel.MinisterTithe" placeholder="0.0" title="Ministers Tithe " />
             </div>
+            <hr />
+
             <div class="row">
                 <label for="slo" class="col-8 text-primary">SUNDAY LOVE OFFERING</label>
                 <input id="slo" class="col-3 " type="text" @bind-value="InputModel.SundayLoveOffering" placeholder="0.0" title="Sunday Love Offering " />
             </div>
+             <hr />
             <div class="row">
                 <label for="slo" class="col-8 text-primary">THANKSGIVING OFFERING</label>
                 <input id="slo" class="col-3 " type="text" @bind-value="InputModel.ThanksgivingOffering" placeholder="0.0" title="Thanksgiving Offering " />
             </div>
+           <hr />
             <div class="row">
                 <label for="crm" class="col-8 text-primary">CRM</label>
                 <input id="crm" class="col-3 " type="text" @bind-value="InputModel.CRM" placeholder="0.0" title="CRM" />
             </div>
+            <hr />
             <div class="row">
                 <label for="jc" class="col-8 text-primary">JUNIOR CHURCH</label>
                 <input id="jc" class="col-3 " type="text" @bind-value="InputModel.JuniorChurch" placeholder="0.0" title="Junior Church" />
             </div>
+            <hr />
+
             <div class="row">
                 <label for="ff" class="col-8 text-primary">FIRST FRUIT OF INCREASE</label>
                 <input id="ff" class="col-3 " type="text" @bind-value="InputModel.FirstFruitIncrease" placeholder="0.0" title="FirstFruit Increase" />
             </div>
+           <hr />
+
             <div class="row">
                     <label for="rfb" class="col-8 text-primary">REDEMPTION OF FIRST BORN</label>
                 <input id="rfb" class="col-3 " type="text" @bind-value="InputModel.RedemptioOfFirstBorn" placeholder="0.0" title="Redemption Of FirstBorn" />
             </div>
+           <hr />
+
             <div class="row">
                 <label for="hf" class="col-8 text-primary">HOUSE FELLOWSHIP</label>
                 <input id="hf" class="col-3 " type="text" @bind-value="InputModel.HouseFellowship" placeholder="0.0" title="House Fellowship" />
             </div>
+           <hr />
+
             <div class="row">
                 <label for="pm" class="col-8 text-primary">PROVINCE FOREIGN MISSION OFFERING</label>
                 <input id="pm" class="col-3 " type="text" @bind-value="InputModel.ProvinceForeignMissionOffering" placeholder="0.0" title="Province Foreign Mission Offering" />
             </div>
+          <hr />
             <div class="row">
                 <label for="sso" class="col-8 text-primary">SUNDAY SCHOOL OFFERING</label>
                 <input id="sso" class="col-3 " type="text" @bind-value="InputModel.SundaySchoolOffering" placeholder="0.0" title="Sunday School Offering" />
             </div>
+            <hr />
             <div class="row">
                 <label for="gf" class="col-8 text-primary">GOSPEL FUND</label>
                 <input id="gf" class="col-3 " type="text" @bind-value="InputModel.GospelFund" placeholder="0.0" title="Gospel Fund" />
             </div>
+            <hr />
+
                 <div class="row">
                     <label for="nw" class="col-8 text-primary">NATIONAL WEEKEND</label>
                     <input id="nw" class="col-3 " type="text" @bind-value="InputModel.NationalWeekend" placeholder="0.0" title="National Weekend" />
                 </div>
+              <hr />
+
                 <div class="row">
                     <label for="pw" class="col-8 text-primary">PASTORS WELFARE</label>
                     <input id="pw" class="col-3 " type="text" @bind-value="InputModel.PastorsWelfare" placeholder="0.0" title="Pastors Welfare" />
                     
                 </div>
+              <hr />
+
                 <div class="row ">
                     <div class="col-8">
                          <label for="nw"  class="text-primary">Are you an Area or Parish?</label>
@@ -84,7 +106,7 @@
                     </div>
                     <div class="col-3">
                         <select class="form-control" @onchange="((e)=>IsParish(e))">
-                            <option selected value="-1">--Select--</option>
+                            <option selected value="-1">--Please pick one--</option>
                             <option value="0">Parish</option>
                             <option value="1">Area</option>
 
@@ -92,14 +114,25 @@
                     </div>
 
                 </div>
-
+              <hr />
+        
                 <div class="row">
-                <input type="submit" value="Generate" class="btn btn-outline-danger offset-3 col-3" />
+
+                    @if ( (AreaOrParishNumber == 0) || (AreaOrParishNumber == 1) )
+                    {
+                    <input type="submit"  value="Generate" class="btn btn-outline-danger offset-3 col-3" />
+                    }
+
+                    else
+                    {
+                        <input type="submit" value="Generate" disabled class="btn btn-outline-danger offset-3 col-3" />
+                    }
+
             </div>
             </EditForm>
         </div>
-        <div class="col-1 border">
-            XXX
+        <div class="col-0 border">
+            
         </div>
   
 
@@ -121,7 +154,7 @@
 {  
 
     <div class="row ">
-        <div class="col-11 ">
+        <div class="col-12 ">
                     <h2 class="text-center p-2 mt-5 mb-4  text-white bg-primary">MONTLY REMITTANCE ANALYSIS SHEET</h2>
 
             <div class="row">
@@ -675,13 +708,12 @@
 
         </div>
 
-        <div class=" col-1 border ">
-            Other side
+        <div class=" col-0 border ">
+           
         </div>
     </div>
 
-    <hr />
-    <hr />
+    
 }
 
 
@@ -694,7 +726,7 @@
     public bool Show { get; set; } = false;
     public string SelectedEnum { get; set; }
     public double CsrAndRun { get; set; }
-
+    public int AreaOrParishNumber { get; set; } = -1;
 
 
     private void xx()
@@ -942,17 +974,22 @@
         {
             if (int.Parse(e.Value.ToString()) == 0) //Parish
             {
-               // SelectedEnum = e.Value.ToString();
+                // SelectedEnum = e.Value.ToString();
                 CsrAndRun = 1500.00d;
+                AreaOrParishNumber = int.Parse(e.Value.ToString());
             }
 
-           else //Area
+            else if (int.Parse(e.Value.ToString()) == 1)//Area
             {
               // SelectedEnum = e.Value.ToString();
                 CsrAndRun = 2500.00d;
-
+                AreaOrParishNumber = int.Parse(e.Value.ToString());
             }
+           else //Area
+            {
 
+                AreaOrParishNumber = int.Parse(e.Value.ToString());
+            }
 
         }
     }
