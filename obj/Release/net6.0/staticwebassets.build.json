@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rC8m/8MAT4CBo5x8PgIpyf8UFlPnGBT71wsw3O0EIjc=",
+  "Hash": "2TH2y9vyrC7gEVfzQ64UVSDExtdxoQK7c8yQo3aGtjo=",
   "Source": "StrongTowerRemit",
   "BasePath": "/",
   "Mode": "Root",
@@ -7121,6 +7121,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ademo\\source\\repos\\StrongTowerRemit\\wwwroot\\favicon.png",
+      "SourceId": "StrongTowerRemit",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ademo\\source\\repos\\StrongTowerRemit\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
       "Identity": "C:\\Users\\ademo\\source\\repos\\StrongTowerRemit\\wwwroot\\icon-192.png",
