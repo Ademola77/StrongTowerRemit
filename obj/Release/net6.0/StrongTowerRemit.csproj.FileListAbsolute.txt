@@ -650,12 +650,6 @@ C:\Users\ademo\source\repos\StrongTowerRemit\bin\Release\net6.0\sample-data\weat
 C:\Users\ademo\source\repos\StrongTowerRemit\bin\Release\net6.0\_framework\blazor.boot.json
 C:\Users\ademo\source\repos\StrongTowerRemit\bin\Release\net6.0\wwwroot\_framework\dotnet.6.0.9.rnz6vdon31.js
 C:\Users\ademo\source\repos\StrongTowerRemit\bin\Release\net6.0\wwwroot\_framework\dotnet.6.0.9.rnz6vdon31.js.gz
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Release\net6.0\publish2\web.config
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Release\net6.0\publish2\sample-data\weather.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Release\net6.0\publish2\StrongTowerRemit.Model.deps.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Release\net6.0\publish2\wwwroot\sample-data\weather.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Release\net6.0\publish2\wwwroot\_framework\blazor.boot.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Release\net6.0\publish2\_framework\blazor.boot.json
 C:\Users\ademo\source\repos\StrongTowerRemit\obj\Release\net6.0\build-gz\+mRUxPuL.gz
 C:\Users\ademo\source\repos\StrongTowerRemit\obj\Release\net6.0\build-gz\T4jGlBOd.gz
 C:\Users\ademo\source\repos\StrongTowerRemit\obj\Release\net6.0\build-gz\+uKpjoVS.gz

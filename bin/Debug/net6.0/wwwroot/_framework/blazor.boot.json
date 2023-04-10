@@ -196,15 +196,15 @@
       "mscorlib.dll": "sha256-y7DhCb2PceYWjnHWsZokJrty551Q9XISH3Z72o6RdwI=",
       "netstandard.dll": "sha256-REs1\/xYvAzuX2k2Y5p\/5IaM3O\/zaiYSW62pOQBGMrrA=",
       "System.Private.CoreLib.dll": "sha256-Bz7VnNtt03SzAvIN30yx1e25P6SfMdLYIaKIy7ASEnw=",
-      "StrongTowerRemit.Model.dll": "sha256-Ycat6bd5ErzfLwb5Tt2iPwrUdah4Cv\/7fqiAb1cKdqM=",
-      "StrongTowerRemit.dll": "sha256-FZgtPkTrz2HW7mo3EnsrifnBmHvDnh41hpIm4Q5L0Ss="
+      "StrongTowerRemit.Model.dll": "sha256-QXWK\/soyHE1ODCsursdnHiz2jNf61Gi9wAOodKDOSMs=",
+      "StrongTowerRemit.dll": "sha256-DeLCLPAmIR99dub7yh+04SfrQVTFXN9UQ0MNIIyXrDw="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "StrongTowerRemit.Model.pdb": "sha256-hj9qt2N6zY\/FfMC1c2sgmqr0FW+M1XzmXb2GspE1HAY=",
-      "StrongTowerRemit.pdb": "sha256-9NLIl9ea+Ykhn0RdIgLseb6OkuUy9E\/21+RD\/pR8ssM="
+      "StrongTowerRemit.Model.pdb": "sha256-mT3klMOWFviq+lyOZ4zduk4\/FluMKgitKcM3qfiE0Us=",
+      "StrongTowerRemit.pdb": "sha256-TsgpAORGlogNrzkVKbr0JBTuCFUlxb1M+lHYjXeojsE="
     },
     "runtime": {
       "dotnet.6.0.15.vi4ve2zcnc.js": "sha256-fb2wBZaRp096nChMG9nDNEcW0kW1whA\/kfQNyH+5QpQ=",
