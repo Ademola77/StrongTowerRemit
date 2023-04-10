@@ -1,5 +1,3 @@
-C:\Users\ademo\source\repos\StrongTowerRemit\publish2\pbsh\web.config
-C:\Users\ademo\source\repos\StrongTowerRemit\publish2\pbsh\StrongTowerRemit.Model.deps.json
-C:\Users\ademo\source\repos\StrongTowerRemit\publish2\pbsh\wwwroot\sample-data\weather.json
-C:\Users\ademo\source\repos\StrongTowerRemit\publish2\pbsh\wwwroot\_framework\blazor.boot.json
+C:\Users\ademo\source\repos\StrongTowerRemit\publish2\sample-data\weather.json
+C:\Users\ademo\source\repos\StrongTowerRemit\publish2\_framework\blazor.boot.json
 C:\Users\ademo\source\repos\StrongTowerRemit\publish2\web.config
