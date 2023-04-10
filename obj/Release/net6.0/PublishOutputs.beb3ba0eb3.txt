@@ -1,3 +1,0 @@
-C:\Users\ademo\source\repos\StrongTowerRemit\pblish1\sample-data\weather.json
-C:\Users\ademo\source\repos\StrongTowerRemit\pblish1\_framework\blazor.boot.json
-C:\Users\ademo\source\repos\StrongTowerRemit\pblish1\web.config
