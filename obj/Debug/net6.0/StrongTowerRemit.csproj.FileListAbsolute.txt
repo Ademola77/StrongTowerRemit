@@ -826,16 +826,5 @@ C:\Users\ademo\source\repos\StrongTowerRemit\obj\Debug\net6.0\staticwebassets\ms
 C:\Users\ademo\source\repos\StrongTowerRemit\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.StrongTowerRemit.props
 C:\Users\ademo\source\repos\StrongTowerRemit\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.StrongTowerRemit.props
 C:\Users\ademo\source\repos\StrongTowerRemit\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\pbsh\web.config
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\publish2\web.config
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\pbsh\StrongTowerRemit.Model.deps.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\pbsh\wwwroot\sample-data\weather.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\pbsh\wwwroot\_framework\blazor.boot.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\publish2\pbsh\StrongTowerRemit.Model.deps.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\publish2\pbsh\wwwroot\sample-data\weather.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\publish2\pbsh\wwwroot\_framework\blazor.boot.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\publish2\StrongTowerRemit.Model.deps.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\publish2\wwwroot\sample-data\weather.json
-C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\publish2\wwwroot\_framework\blazor.boot.json
 C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\sample-data\weather.json
 C:\Users\ademo\source\repos\StrongTowerRemit\bin\Debug\net6.0\_framework\blazor.boot.json
